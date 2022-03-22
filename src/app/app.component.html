@@ -1,0 +1,37 @@
+<style>
+  .toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #64437d;
+    color: white;
+    font-weight: 600;
+  }
+
+  .toolbar i {
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .toolbar .employee {
+    float: right;
+    padding-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+</style>
+
+<nav class="navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar">
+    <div class="toolbar" role="banner">
+    <div class="col-sm-6">
+      <h4><i class='fas fa-home' (click)="HomeClick()"></i></h4>
+    </div>
+    <div class="col-sm-6">
+      <span class="employee"><b><i class='fas fa-user'></i> Employee Management</b></span>
+    </div>
+  </div>
+</nav>
+<router-outlet></router-outlet>
