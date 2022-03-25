@@ -8,7 +8,7 @@
 
   > Run `npm install`
   
-  > Replace the above `apiUrl` inside `src/app/Service/http-provider.service.ts`
+  > Replace the above `apiUrl` inside `src/app/Service/http-provider.service.ts`. Example : http://localhost:8100/
   
   > Run `ng serve` for a dev server
 
