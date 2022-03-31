@@ -4,7 +4,7 @@
   
   > Run the solution
 
-# AngularCRUDApplication
+## AngularCRUDApplication
 
   > Run `npm install`
   
@@ -12,4 +12,5 @@
   
   > Run `ng serve` for a dev server
 
-
+## Blog reference
+[How to Build a CRUD App in Angular](https://www.syncfusion.com/blogs/post/how-to-build-a-crud-app-in-angular.aspx)
